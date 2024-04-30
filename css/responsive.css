@@ -358,15 +358,11 @@
         width: 140px;
     }
 
-    .banner-top-mask .news-release {
+    .news-release {
         display: block;
         bottom: auto!important;
         top: 16px!important;
         width: 90%!important;
         left: 5%!important;
-    }
-
-    .banner-bottom-mask .news-release {
-        display: none;
     }
 }

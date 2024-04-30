@@ -372,6 +372,10 @@ html, body {
     left: 35%;
     bottom: 24px;
     text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 30px;
+    z-index: 9999999;
 }
 .news-release a {
     text-decoration: none;
