@@ -1,0 +1,372 @@
+@media screen and (min-width: 1600px) and (max-width: 2100px) {
+    .banner-text {
+        font-size: 64px;
+        margin-left: -40px;
+    }
+
+    .banner-text .text.for-everyone {
+        margin-left: 420px;
+    }
+
+    .content {
+        width: 1400px;
+    }
+
+    .tech-blog .article-list .article {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    .banner-text {
+        font-size: 44px;
+        margin-left: -20px;
+    }
+
+    .banner-text .text.for-everyone {
+        margin-left: 320px;
+    }
+
+    .navbar {
+        height: 60px;
+        line-height: 40px;
+    }
+    .navbar .logo img {
+        width: 150px;
+        margin-top: 6px;
+    }
+
+    .navbar .nav-items a {
+        margin: 0 24px;
+    }
+
+    .content {
+        width: 1000px;
+    }
+
+    .use-case .content {
+        padding: 96px 0;
+    }
+
+    .content .text {
+        padding: 24px 32px;
+        height: 440px;
+    }
+
+    .content .title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .content .text .highlights {
+        font-size: 18px;
+        line-height: 36px;
+        color: #0C0C0C;
+    }
+
+    .tech-blog .article-list .article {
+        width: 250px;
+        height: 360px;
+    }
+
+    .tech-blog .article-list .article .article-title {
+        font-size: 18px;
+    }
+
+    .footer .the-fight {
+        font-size: 28px;
+    }
+
+    .footer .links-and-email .links a {
+        font-size: 18px;
+    }
+
+    .footer .links-and-email .email {
+        width: 200px;
+    }
+    .use-case .content .button > a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+    .banner-text {
+        font-size: 34px;
+        margin-left: -20px;
+    }
+
+    .banner-text .text.for-everyone {
+        margin-left: 240px;
+    }
+
+    .navbar {
+        height: 60px;
+        line-height: 40px;
+    }
+    .navbar .logo img {
+        width: 120px;
+        margin-top: 10px;
+    }
+
+    .content {
+        width: 800px;
+    }
+
+    .use-case .content {
+        padding: 80px 0;
+    }
+
+    .use-case .content .image {
+        padding-top: 32px;
+    }
+
+    .content .text {
+        padding: 0 16px;
+        height: 400px;
+    }
+
+    .content .title {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .content .text .highlights {
+        font-size: 18px;
+        line-height: 34px;
+        color: #0C0C0C;
+    }
+
+    .tech-blog .article-list .article {
+        width: 200px;
+        height: 330px;
+    }
+
+    .tech-blog {
+        padding: 48px 0;
+    }
+
+    .tech-blog .article-list {
+        margin-top: 48px;
+    }
+
+    .tech-blog .article-list .article .article-title {
+        font-size: 16px;
+    }
+
+    .footer .the-fight {
+        font-size: 24px;
+    }
+
+    .footer .links-and-email .links a {
+        font-size: 16px;
+    }
+
+    .footer .links-and-email .email {
+        width: 180px;
+    }
+
+    .use-case .content .button > a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 960px) {
+
+    .banner-text {
+        font-size: 26px;
+        margin-left: -10px;
+    }
+
+    .banner-text .text.for-everyone {
+        margin-left: 200px;
+    }
+
+    .news-release {
+        width: 60%;
+        left: 20%;
+    }
+
+    .navbar {
+        height: 44px;
+        line-height: 24px;
+    }
+
+    .navbar .logo img {
+        width: 100px;
+        margin-top: 8px;
+    }
+
+    .navbar .nav-items a {
+        margin: 0 12px;
+    }
+
+    .content {
+        width: 660px;
+    }
+
+    .use-case .content {
+        padding: 32px 0;
+    }
+
+    .use-case .content .image {
+        padding-top: 64px;
+    }
+
+    .content .text {
+        padding: 24px 0;
+        height: 400px;
+    }
+
+    .content .title {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .content .text .highlights {
+        font-size: 16px;
+        line-height: 28px;
+        color: #0C0C0C;
+    }
+
+    .tech-blog .article-list .article {
+        width: 220px;
+        height: 340px;
+    }
+
+    .tech-blog {
+        padding: 24px 0;
+    }
+
+    .tech-blog .article-list {
+        margin-top: 48px;
+    }
+
+    .tech-blog .article-list .article .article-title {
+        font-size: 14px;
+    }
+
+    .footer .the-fight {
+        font-size: 20px;
+    }
+
+    .footer .links-and-email .links a {
+        font-size: 14px;
+    }
+
+    .footer .links-and-email .email {
+        width: 160px;
+    }
+
+    .footer .copyright {
+        font-size: 14px;
+    }
+
+    .use-case .content .button > a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner .banner-text {
+        height: 80px;
+        top: auto;
+        bottom: 164px;
+        margin-top: 0;
+        margin-left: 0;
+        line-height: 46px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .banner-text .text {
+        display: block;
+    }
+
+    .banner-text .text.for-everyone {
+        margin-left: 0;
+    }
+
+    .banner-text .text.crynux {
+        display: block;
+    }
+
+    .content {
+        position: relative;
+        width: auto;
+        margin: 0 16px;
+    }
+
+    .use-case .content {
+        padding: 64px 0;
+    }
+
+    .content .title {
+        font-size: 30px;
+    }
+
+    .content .text .highlights {
+        font-size: 24px;
+        line-height: 40px;
+        color: #0C0C0C;
+    }
+
+    .content > .left, .content > .right {
+        width: auto;
+        float: none;
+    }
+
+    .content > .right {
+        padding-left: 0;
+        box-sizing: border-box;
+    }
+
+    .content > .text {
+        padding: 64px 0 0;
+        height: auto;
+    }
+
+    .use-case .content .button {
+        padding: 16px;
+    }
+
+    .use-case .content .button > a {
+        font-size: 20px;
+    }
+    .tech-blog .article-list {
+        margin-top: 16px;
+    }
+    .tech-blog .article-list .article {
+        float: none;
+        padding: 16px;
+        width: auto;
+        height: auto;
+    }
+
+    .footer .the-fight {
+        font-size: 30px;
+        padding-top: 32px;
+    }
+
+    .footer .links-and-email .links {
+        float: none;
+    }
+
+    .footer .links-and-email .links a {
+        line-height: 44px;
+    }
+
+    .footer .links-and-email .email {
+        width: 140px;
+    }
+
+    .banner-top-mask .news-release {
+        display: block;
+        bottom: auto!important;
+        top: 16px!important;
+        width: 90%!important;
+        left: 5%!important;
+    }
+
+    .banner-bottom-mask .news-release {
+        display: none;
+    }
+}
