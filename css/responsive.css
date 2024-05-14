@@ -15,6 +15,10 @@
     .tech-blog .article-list .article {
         width: 350px;
     }
+
+    .main-actions {
+        font-size: 22px;
+    }
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -85,6 +89,10 @@
         width: 200px;
     }
     .use-case .content .button > a {
+        font-size: 20px;
+    }
+
+    .main-actions {
         font-size: 20px;
     }
 }
@@ -166,6 +174,10 @@
     }
 
     .use-case .content .button > a {
+        font-size: 18px;
+    }
+
+    .main-actions {
         font-size: 18px;
     }
 }
@@ -264,9 +276,16 @@
     .use-case .content .button > a {
         font-size: 16px;
     }
+
+    .main-actions {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 700px) {
+    .navbar {
+        display: none;
+    }
     .banner .banner-text {
         height: 80px;
         top: auto;
@@ -358,11 +377,16 @@
         width: 140px;
     }
 
-    .news-release {
+    .main-actions {
         display: block;
         bottom: auto!important;
         top: 16px!important;
         width: 90%!important;
         left: 5%!important;
+
+        font-size: 16px!important;
+    }
+    .news-release {
+        display: none;
     }
 }

@@ -365,12 +365,28 @@ html, body {
 .mobile .scroll-animation-right {
     left: 0;
 }
-
+.main-actions {
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    bottom: 100px;
+    font-size: 24px;
+    color: #FFFFFF;
+    z-index: 9999999;
+    text-align: center;
+}
+.main-actions a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-actions a:hover {
+    text-decoration: underline;
+}
 .news-release {
     position: absolute;
     width: 30%;
     left: 35%;
-    bottom: 24px;
+    bottom: -14px;
     text-align: center;
     color: #ffffff;
     font-size: 13px;
