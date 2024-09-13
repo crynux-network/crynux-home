@@ -1,0 +1,237 @@
+html, body {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #F1F5F9;
+}
+img {
+    display: block;
+    border: 0;
+}
+.banner {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+}
+.banner .bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.banner .bg .gradient-top {
+    position: absolute;
+    width: 57%;
+    right: 0;
+    top: 0;
+}
+.banner .bg .gradient-top img {
+    top: -50%;
+}
+
+.banner .bg .gradient-left {
+    position: absolute;
+    width: 57%;
+    left: 0;
+    top: 100px;
+}
+
+.banner .bg .gradient-left img,
+.banner .bg .gradient-top img {
+    width: 100%;
+    opacity: 0.2;
+}
+.banner .bg .logo {
+    position: absolute;
+    width: 63%;
+    top: 0;
+    left: 40%;
+}
+.banner .bg .logo img {
+    width: 100%;
+}
+.banner .navbar {
+    position: relative;
+    height: 100px;
+}
+.banner .navbar .logo {
+    position: relative;
+    top: 16px;
+    left: 48px;
+}
+
+.banner .navbar .nav-items {
+    position: absolute;
+    top: 16px;
+    right: 48px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 12px;
+    padding: 16px 32px;
+}
+.banner .navbar .nav-items .nav-item {
+    display: inline-block;
+    margin: 0 16px;
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.banner .navbar .nav-items .nav-item:hover {
+    color: black;
+}
+
+.banner .slogan {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 8%;
+    font-family: "Reem Kufi";
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+}
+
+.banner .network-stats {
+    position: relative;
+    margin: 160px auto;
+    width: 1200px;
+    text-align: center;
+    background: white;
+    opacity: 0.8;
+    border-radius: 16px;
+    padding-top: 48px;
+    padding-bottom: 26px;
+}
+
+.banner .network-stats .stats-item {
+    position: relative;
+    display: inline-block;
+    margin: 0 88px;
+    height: 80px;
+}
+
+.banner .network-stats .stats-item .stats-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+}
+.banner .network-stats .stats-item .stats-icon img {
+    width: 100%;
+}
+
+.banner .network-stats .stats-item .stats-title {
+    margin-left: 56px;
+    text-align: left;
+}
+
+.banner .network-stats .stats-item .stats-data {
+    margin-left: 56px;
+    margin-top: 8px;
+    color: #09A9FD;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: left;
+}
+
+.banner .partners {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+.banner .partners .partner-scroller {
+    position: relative;
+    height: 300px;
+}
+
+.banner .partners .partner-scroller .partner {
+    display: inline-block;
+    margin: 88px 36px;
+    width: 200px;
+    height: 70px;
+}
+.banner .partners .partner-scroller .partner img {
+    width: 100%;
+}
+.features {
+    position: relative;
+    margin-top: 16px;
+}
+.feature.permissionless {
+    text-align: center;
+}
+.feature.permissionless > .title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.feature.permissionless .items {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 64px;
+}
+
+.feature.permissionless .items .item {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 24px;
+    border-radius: 16px;
+}
+
+.feature.permissionless .items .item .icon {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 32px;
+    top: 32px;
+    background-color: #09A9FD;
+    border-radius: 16px;
+}
+
+.feature.permissionless .items .item .icon img {
+    position: absolute;
+    display: block;
+    width: 48px;
+    height: 48px;
+    left: 26px;
+    top: 26px;
+}
+
+.feature.permissionless .items .item .title {
+    position: relative;
+    text-align: left;
+    margin-left: 180px;
+    top: 49px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.feature.permissionless .items .item .description {
+    position: relative;
+    text-align: left;
+    margin-left: 180px;
+    top: 56px;
+    color: #191825;
+}
+
+.feature.start-a-node {
+    margin-top: 88px;
+    text-align: center;
+}
+.feature.start-a-node > .title {
+    font-size: 40px;
+    font-weight: 700;
+}
