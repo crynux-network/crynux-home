@@ -1,0 +1,187 @@
+
+@media (min-width: 576px) and (max-width: 767px)  {
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px)  {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399px)  {
+    .banner .slogan {
+        margin-top: 100px;
+        font-size: 56px;
+        line-height: 80px;
+    }
+
+    .banner .network-stats {
+        margin: 108px auto;
+        padding-top: 48px;
+        padding-bottom: 36px;
+    }
+
+    .banner .network-stats .stats-item {
+        margin-left: 88px;
+    }
+
+    .banner .partners .partner-scroller {
+        width: 1100px;
+    }
+
+    .banner .partners .partner-scroller .partner {
+        width: 146px;
+    }
+
+    .feature.permissionless {
+        margin-top: 48px;
+    }
+
+    .feature.start-a-node {
+        margin-top: 148px;
+    }
+
+    .feature.start-a-node .buttons .node-btn {
+        margin: 0 32px;
+    }
+    .feature.model-service {
+        margin-top: 148px;
+    }
+    .feature.model-service .model-service-frame > .title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item {
+        padding: 48px 24px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .triangles img {
+        margin: 0 6px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .title {
+        font-size: 20px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .description {
+        font-size: 16px;
+    }
+
+    .feature.defi {
+        margin-top: 88px;
+    }
+
+    .feature.defi .bg {
+        right: 5%;
+    }
+
+    .feature.defi .content {
+        width: 85%;
+    }
+
+    .feature.defi .content > .title .line {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .feature.defi .content .highlights .column .item {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .feature.defi .content .highlights .column .item .title .text {
+        font-size: 18px;
+    }
+
+    .roadmap {
+        margin-top: 88px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+
+    .banner .slogan {
+        font-size: 76px;
+        line-height: 100px;
+    }
+
+    .banner .network-stats {
+        margin: 148px auto;
+        padding-top: 48px;
+        padding-bottom: 36px;
+    }
+
+    .banner .network-stats .stats-item {
+        margin-left: 88px;
+    }
+
+    .feature.permissionless {
+        margin-top: 48px;
+    }
+
+    .feature.start-a-node {
+        margin-top: 148px;
+    }
+
+    .feature.start-a-node .buttons .node-btn {
+        margin: 0 32px;
+    }
+    .feature.model-service {
+        margin-top: 148px;
+    }
+    .feature.model-service .model-service-frame > .title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item {
+        padding: 48px 24px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .triangles img {
+        margin: 0 6px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .title {
+        font-size: 20px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .description {
+        font-size: 16px;
+    }
+
+    .feature.defi {
+        margin-top: 88px;
+    }
+
+    .feature.defi .bg {
+        right: 5%;
+    }
+
+    .feature.defi .content {
+        width: 85%;
+    }
+
+    .feature.defi .content > .title .line {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .feature.defi .content .highlights .column .item {
+        width: 80%;
+        padding: 20px;
+    }
+
+    .feature.defi .content .highlights .column .item .title .text {
+        font-size: 18px;
+    }
+
+    .roadmap {
+        margin-top: 88px;
+    }
+}
+

@@ -204,9 +204,13 @@ img {
 .banner .network-stats .stats-item {
     position: relative;
     display: inline-block;
-    margin: 0 108px;
+    margin-left: 128px;
     height: 80px;
     z-index: 3;
+}
+
+.banner .network-stats .stats-item:first-child {
+    margin-left: 0;
 }
 
 .banner .network-stats .stats-item .stats-icon {
@@ -244,7 +248,8 @@ img {
 }
 .banner .partners .partner-scroller {
     position: relative;
-    margin-top: 88px;
+    width: 1360px;
+    margin: 88px auto;
 }
 
 .banner .partners .partner-scroller .row {
