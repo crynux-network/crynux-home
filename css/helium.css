@@ -142,6 +142,7 @@ img {
 
 .banner .sidebar .sidebar-item img {
     display: inline-block;
+    position: relative;
     width: 24px;
 }
 
@@ -160,7 +161,6 @@ img {
     width: 60%;
     margin-top: 140px;
     margin-left: 8%;
-    font-family: "Reem Kufi";
     font-size: 90px;
     font-weight: 700;
     line-height: 130px;
@@ -230,9 +230,8 @@ img {
     margin-left: 56px;
     margin-top: 16px;
     color: #09A9FD;
-    font-family: Inter;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 24px;
     text-align: left;
 }
@@ -554,6 +553,7 @@ img {
     margin-top: 24px;
     color: white;
     font-size: 16px;
+    line-height: 26px;
 }
 
 .feature.defi .content .highlights .column .item .description .line {
@@ -564,9 +564,27 @@ img {
     margin-top: 60px;
 }
 
+.footer-bg-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-bg-wrapper .bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100px;
+    opacity: 0.1;
+}
+
+.footer-bg-wrapper .bg img {
+    width: 100%;
+}
+
+
 .roadmap {
     position: relative;
-    margin-top: 128px;
+    margin-top: 188px;
 }
 
 .roadmap .content {
@@ -640,7 +658,7 @@ img {
 }
 
 .roadmap .content .roads .road-axis .timestop.lithium {
-    top: 302px;
+    top: 282px;
     left: 0;
     right: 50%;
     margin-right: -6px;
@@ -651,7 +669,7 @@ img {
 }
 
 .roadmap .content .roads .road-axis .timestop.beryllium {
-    top: 482px;
+    top: 467px;
     left: 50%;
     right: 0;
     margin-left: -6px;
@@ -686,6 +704,8 @@ img {
 .roadmap .content .roads .milestone .description {
     font-size: 18px;
     margin-top: 16px;
+    color: #666;
+    line-height: 32px;
 }
 
 .roadmap .content .roads .milestone.helium {
@@ -699,19 +719,18 @@ img {
 }
 
 .roadmap .content .roads .milestone.lithium {
-    top: 212px;
+    top: 192px;
 }
 
 .roadmap .content .roads .milestone.beryllium {
-    margin-top: 88px;
+    margin-top: 90px;
 }
 
 .footer {
     position: relative;
-    background-image: url('../img/footer-bg.png');
-    padding: 88px 0;
+    padding-top: 188px;
+    padding-bottom: 88px;
 }
-
 .footer .content {
     position: relative;
     width: 75%;
@@ -733,8 +752,8 @@ img {
 
 .footer .content .link-items {
     position: absolute;
-    right: 64px;
-    top: 64px;
+    right: 0;
+    top: 0;
 }
 
 .footer .content .link-items .link-item {
@@ -742,12 +761,41 @@ img {
     color: #8987A1;
     display: inline-block;
     margin: 0 8px;
+    width: 60px;
+    text-align: center;
 }
 
 .footer .content .link-items .link-item:hover {
     color: black;
 }
 
+.footer .content .link-items .divider {
+    color: #e0e0e0;
+}
+
+.footer .content .row {
+    position: relative;
+}
+
 .footer .content .row:nth-child(2) {
     margin-top: 88px;
+}
+
+.footer .content .row .social-links {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer .content .row .social-links .social-link {
+    position: relative;
+    float: right;
+    width: 27px;
+    height: 27px;
+    margin-left: 24px;
+    opacity: 0.8;
+}
+
+.footer .content .row .social-links .social-link:hover {
+    opacity: 1;
 }
