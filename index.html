@@ -4,293 +4,370 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Crynux - Decentralized AI Infrastructure for Everyone</title>
+    <title>Crynux - Decentralized Orchestration Layer on EdgeAI</title>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/hydrogen.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/helium.css">
 </head>
-<body id="app">
-    <div id="bg-wave-container"></div>
-    <div id="bg-wave">
-        <div id="navbar" class="navbar">
-            <div class="logo">
-                <img src="img/logo-full-white.png"  alt="Crynux logo"/>
-            </div>
-            <div class="nav-items">
-                <a href="https://blog.crynux.ai" target="_blank">Blog</a>
-                <a href="https://docs.crynux.ai" target="_blank">Documentation</a>
-                <a href="https://github.com/crynux-ai" target="_blank">GitHub</a>
-                <a href="https://twitter.com/crynuxai" target="_blank">Twitter</a>
-                <a href="https://discord.gg/Ug2AHUbrrm" target="_blank">Discord</a>
-            </div>
+<body>
+<div class="banner">
+    <div class="bg">
+        <div class="logo">
+            <img src="img/banner-bg-logo.png"/>
         </div>
-        <div id="banner" class="banner">
-            <div class="banner-top-mask">
-                <div class="extra-mask"></div>
-            </div>
-            <div class="banner-content">
-                <div class="banner-image">
-                    <img class="large-image" src="img/banner.png" alt="Crynux banner"/>
-                    <img class="mobile-image" src="img/banner-mobile.png" alt="Crynux banner" />
-                </div>
-                <div class="banner-text">
-                <div class="crynux text">Crynux.ai</div>
-                <div class="decentralized-ai-infra text">
-                    Decentralized AI Infra
-                </div>
-                <div class="for-everyone text">
-                    For Everyone
-                </div>
-            </div>
-            </div>
-            <div class="banner-bottom-mask">
-                <div class="extra-mask"></div>
-            </div>
-            <div class="main-actions">
-                <a href="mailto:hi@crynux.ai" target="_blank">Investors</a>
-                &nbsp;|&nbsp;
-                <a href="https://twitter.com/crynuxai" target="_blank">Twitter</a>
-                &nbsp;|&nbsp;
-                <a href="https://discord.gg/Ug2AHUbrrm" target="_blank">Discord</a>
-                &nbsp;|&nbsp;
-                <a href="https://github.com/crynux-ai" target="_blank">GitHub</a>
-                &nbsp;|&nbsp;
-                <a href="https://docs.crynux.ai/node-hosting/start-a-node-windows" target="_blank">Start Node</a>
-            </div>
-            <div class="news-release">
-                <div><a href="https://blog.crynux.ai/the-helium-network/" target="_blank">[Jan 30] The Helium Network is Live!</a></div>
-                <div><img src="img/scroll-down.gif" width="40" alt="scroll down"/></div>
-            </div>
+        <div class="gradient-top">
+            <img src="img/banner-gradient-top.png"/>
         </div>
-        <div class="hydrogen-network use-case">
-            <div class="content">
-                <div class="hydrogen-title">The Real DeAI Anyone can Join and Use Right Away!</div>
-                <div class="hydrogen-content">"The key to the real DeAI is a robust consensus protocol that enables the permissionless joining and using of the decentralized network by millions. The ability to identify and penalize all the malicious behaviors ensures the ecosystem's sustainability and facilitates healthy growth in a long term"</div>
-                <div class="hydrogen-content">Based on the consensus protocol, the latest release, Helium Network, allows everyone to join, providing GPU to execute both the Stable Diffusion and GPT tasks for other applications.</div>
-                <div class="hydrogen-read-more"><a href="https://blog.crynux.ai/the-helium-network/" target="_blank">Read More...</a></div>
-                <div class="hydrogen-demo-video">
-                    <iframe src="https://www.youtube.com/embed/hkQOIeQqmZ4?si=7pRboT0yZ_SKatcn" title="A Demo Video of the Crynux Network" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                <div class="hydrogen-navigations">
-                    <div class="hydrogen-nav">
-                        <div class="h-nav-title">Application Developers</div>
-                        <div class="h-nav-description">Use the network as an inference API service on the cloud to execute the Stable Diffusion and GPT tasks.</div>
-                        <div class="h-nav-link"><a href="https://docs.crynux.ai/application-development/application-workflow" target="_blank">Get Started<span class="mobile-guide"> >>></span></a></div>
-                    </div>
-                    <div class="hydrogen-nav">
-                        <div class="h-nav-title">Image Generator</div>
-                        <div class="h-nav-description">A demo of an application using the Helium Network. Generate images in the browser with no GPU.</div>
-                        <div class="h-nav-link"><a href="https://ig.crynux.ai" target="_blank">Try it Now<span class="mobile-guide"> >>></span></a></div>
-                        </div>
-                    <div class="hydrogen-nav">
-                        <div class="h-nav-title">Start a Node</div>
-                        <div class="h-nav-description">Connect your device to the network in exchange for tokens at idle time. NVIDIA GPU and Mac are both supported. The node could be started in seconds.</div>
-                        <div class="h-nav-link"><a href="https://docs.crynux.ai/node-hosting/start-a-node-windows" target="_blank">Get Started<span class="mobile-guide"> >>></span></a></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="use-case use-case-applications">
-            <div class="content">
-                <div class="image left scroll-animation-left">
-                    <img src="img/use-case-applications.png" alt="Use case for applications, AI model shop. Models, such as the anime diffusion model and legal document writer model, could be listed for trading. Models could be used as the API service and downloaded for local deployment."/>
-                </div>
-                <div class="text right">
-                    <div class="title scroll-animation">For Applications</div>
-                    <ul class="highlights">
-                        <li class="scroll-animation">There is always a model fits your need in the marketplace.</li>
-                        <li class="scroll-animation">Bring AI power to your applications simply using API.</li>
-                        <li class="scroll-animation">Easy model customization using local data.</li>
-                    </ul>
-                    <div class="button scroll-animation">
-                        <a href="javascript:void(0)" class="disabled">Marketplace (opening soon)&nbsp;&nbsp;→</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="use-case use-case-developers">
-            <div class="content">
-                <div class="image right scroll-animation-right">
-                    <img src="img/use-case-developers.png" alt="Use case for developers. Program the training task the usual way and start training on the data and computing power provided by the network. Online IDE and debugging tools."/>
-                </div>
-                <div class="text left">
-                    <div class="title scroll-animation">For Developers</div>
-                    <ul class="highlights">
-                        <li class="scroll-animation">Utilize the dataset and computing resources provided by the network.</li>
-                        <li class="scroll-animation">Write traditional PyTorch and Pandas tasks. Transparently run it in the decentralized network.</li>
-                        <li class="scroll-animation">Developer friendly framework, SDK and debugging tools.</li>
-                    </ul>
-                    <div class="button scroll-animation">
-                        <a href="https://developer.crynux.ai" target="_blank">Developer Console&nbsp;&nbsp;→</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="use-case use-case-nodes">
-            <div class="content">
-                <div class="image left scroll-animation-left">
-                    <img src="img/use-case-nodes.png" alt="Use case for nodes. Provide private data to the network as datasets at no leakage risk. Decentralized network to join and quit at any time."/>
-                </div>
-                <div class="text right">
-                    <div class="title scroll-animation">For Nodes</div>
-                    <ul class="highlights">
-                        <li class="scroll-animation">Earn from your private data and spare computing resources.</li>
-                        <li class="scroll-animation">Private data is protected from public access with Federated Learning and MPC.</li>
-                        <li class="scroll-animation">Transactions are verified using Zero Knowledge Proofs to prevent cheating.</li>
-                    </ul>
-                    <div class="button scroll-animation">
-                        <a href="https://docs.crynux.ai/node-hosting/start-a-node-windows" target="_blank">Node Hosting Guide&nbsp;&nbsp;→</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="tech-blog">
-            <div class="content">
-                <div class="title">
-                    Tech Blog
-                    <a href="https://blog.crynux.ai" target="_blank">View More</a>
-                </div>
-                <div class="article-list">
-                    <a class="article" href="https://blog.crynux.ai/a-practical-verification-mechanism-for-decentralized-gpu-sharing" target="_blank">
-                        <div class="cover">
-                            <img src="img/articles/gpu.png" />
-                        </div>
-                        <div class="article-title">A Practical Verification Mechanism for Decentralized GPU Sharing</div>
-                        <div class="article-release-date">July 21, 2023</div>
-                    </a>
-                    <a class="article" href="https://blog.crynux.ai/stable-diffusion-workflow-reimagined-cheap-flexible-and-more-powerful" target="_blank">
-                        <div class="cover">
-                            <img src="img/articles/sd.png" />
-                        </div>
-                        <div class="article-title">Stable Diffusion Workflow Reimagined: Cheap Flexible and more Powerful</div>
-                        <div class="article-release-date">June 18, 2023</div>
-                    </a>
-                    <a class="article" href="https://blog.crynux.ai/llm-fine-tuning-using-the-distributed-private-data" target="_blank">
-                        <div class="cover">
-                            <img src="img/articles/ft-fl.jpg" />
-                        </div>
-                        <div class="article-title">LLM Fine-tuning using the Distributed Private Data</div>
-                        <div class="article-release-date">June 7, 2023</div>
-                    </a>
-                    <a class="article" href="https://blog.crynux.ai/on-chain-verification-of-the-model-training-using-zkp/" target="_blank">
-                        <div class="cover">
-                            <img src="img/articles/zkp-lr.png" />
-                        </div>
-                        <div class="article-title">On-chain Verification of the LR Model Training using ZKP</div>
-                        <div class="article-release-date">Oct 26, 2022</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="content">
-                <div class="the-fight">
-                    It's a Fight for the Open and Democratic AI.
-                </div>
-                <div class="links-and-email">
-                    <div class="links">
-                        <a href="https://blog.crynux.ai" target="_blank">Blog</a>
-                        <a href="https://docs.crynux.ai" target="_blank">Documentation</a>
-                        <a href="https://github.com/crynux-ai" target="_blank">GitHub</a>
-                    </div>
-                    <div class="links">
-                        <a href="mailto:hi@crynux.ai" target="_blank">Contact us</a>
-                        <a href="https://twitter.com/crynuxai" target="_blank">Twitter</a>
-                        <a href="https://discord.gg/Ug2AHUbrrm" target="_blank">Discord</a>
-                    </div>
-                    <div class="email">
-                        <img src="img/logo-full-white.png" alt="Crynux logo black" />
-                    </div>
-                </div>
-                <div class="copyright">
-                    &copy; 2023 Crynux. All Rights Reserved.
-                </div>
-            </div>
-
+        <div class="gradient-left">
+            <img src="img/banner-gradient-left.png"/>
         </div>
     </div>
-
-    <script type="text/javascript">
-
-        if (window.innerWidth <= 700) {
-            document.getElementById("app").classList.add("mobile");
-        }
-
-        navbar = document.getElementById('navbar');
-
-        window.addEventListener('scroll',function(){
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            const windowHeight = window.innerHeight;
-            const threshold = windowHeight / 2 - 100;
-
-            if(window.innerWidth > 700) {
-                if(scrollTop >= threshold) {
-                    const opacity = ( scrollTop - threshold ) / threshold;
-                    navbar.style.opacity = opacity > 1 ? 1 : opacity;
-                } else {
-                    navbar.style.opacity = 0;
-                }
-            } else {
-                navbar.style.opacity = 0;
-
-            }
-        });
-    </script>
-    <script type="text/javascript" src="lib/gsap.min.js"></script>
-    <script type="text/javascript" src="lib/ScrollTrigger.min.js"></script>
-    <script type="text/javascript" src="lib/three.min.js"></script>
-    <script type="text/javascript" src="lib/vanta.waves.min.js"></script>
-    <script type="text/javascript">
-        window.onload = function(){
-
-            VANTA.WAVES({
-                el: '#bg-wave-container',
-                waveSpeed: 0.7,
-                zoom: 1,
-                waveHeight: 10,
-                shininess: 90
-            });
-
-            if(document.getElementById("app").classList.contains("mobile")) {
-                return;
-            }
-
-            const scrollElements = document.getElementsByClassName("scroll-animation");
-
-            for(let i=0, l=scrollElements.length; i<l; i++) {
-                let elem = scrollElements.item(i);
-                gsap.to(elem, {
-                    scrollTrigger: elem,
-                    y: -100,
-                    scrub: 0.5
-                });
-            }
-
-            const scrollHorizontalLeftElements = document.getElementsByClassName("scroll-animation-left");
-
-            for(let i=0, l=scrollHorizontalLeftElements.length; i<l; i++) {
-                let elem = scrollHorizontalLeftElements.item(i);
-                gsap.to(elem, {
-                    scrollTrigger: elem,
-                    x: 150,
-                    scrub: 0.5
-                });
-            }
-
-            const scrollHorizontalRightElements = document.getElementsByClassName("scroll-animation-right");
-
-            for(let i=0, l=scrollHorizontalRightElements.length; i<l; i++) {
-                let elem = scrollHorizontalRightElements.item(i);
-                gsap.to(elem, {
-                    scrollTrigger: elem,
-                    x: -150,
-                    scrub: 0.5
-                });
-            }
-
-        };
-    </script>
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo-full-black.png" width="200" />
+        </div>
+        <div class="nav-items">
+            <a class="nav-item" href="javascript:void(0)">Apps</a>
+            <span class="divider">|</span>
+            <a class="nav-item" href="javascript:void(0)">Nodes</a>
+            <span class="divider">|</span>
+            <a class="nav-item" href="javascript:void(0)">Docs</a>
+            <span class="divider">|</span>
+            <a class="nav-item" href="javascript:void(0)">Blog</a>
+            <span class="divider">|</span>
+            <a class="nav-item" href="javascript:void(0)">Explorer</a>
+            <span class="divider">|</span>
+            <a class="nav-item" href="javascript:void(0)">Netstat</a>
+        </div>
+    </div>
+    <div class="sidebar">
+        <a class="sidebar-item" href="https://x.com/crynuxai" target="_blank">
+            <div class="bg"></div>
+            <div class="icon">
+                <img src="img/sidebar-icon-twitter.png" alt="Twitter"/>
+            </div>
+        </a>
+        <a class="sidebar-item" href="https://discord.gg/Ug2AHUbrrm" target="_blank">
+            <div class="bg"></div>
+            <div class="icon">
+                <img src="img/sidebar-icon-twitter.png" alt="Discord"/>
+            </div>
+        </a>
+        <a class="sidebar-item" href="https://github.com/crynux-ai" target="_blank">
+            <div class="bg"></div>
+            <div class="icon">
+                <img src="img/sidebar-icon-twitter.png" alt="GitHub"/>
+            </div>
+        </a>
+        <div class="sidebar-arrow">
+            <img src="img/arrow-down-black.svg" />
+        </div>
+        <div class="sidebar-arrow">
+            <img src="img/arrow-down-black.svg" />
+        </div>
+        <div class="sidebar-arrow">
+            <img src="img/arrow-down-black.svg" />
+        </div>
+    </div>
+    <div class="slogan">
+        <div class="line">Decentralized</div>
+        <div class="line">Orchestration Layer</div>
+        <div class="line">on <span style="color:#09A9FD">EdgeAI</span></div>
+    </div>
+    <div class="network-stats">
+        <div class="bg"></div>
+        <div class="arrows">
+            <img src="img/arrow-right-black.svg" />
+            <img src="img/arrow-right-black.svg" />
+            <img src="img/arrow-right-black.svg" />
+        </div>
+        <div class="content">
+            <div class="stats-item">
+                <div class="stats-icon"><img src="img/icon-stats-computing.png" /></div>
+                <div class="stats-title">Total Computing Power</div>
+                <div class="stats-data">10,526 <span class="unit" style="font-size: 18px">TFLOPS</span></div>
+            </div>
+            <div class="stats-item">
+                <div class="stats-icon"><img src="img/icon-stats-node.png" /></div>
+                <div class="stats-title">Total Nodes</div>
+                <div class="stats-data">1,092</div>
+            </div>
+            <div class="stats-item">
+                <div class="stats-icon"><img src="img/icon-stats-task.png" /></div>
+                <div class="stats-title">Total Tasks</div>
+                <div class="stats-data">1,515,061</div>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <div class="title">TRUSTED BY</div>
+        <div class="partner-scroller">
+            <div class="row">
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Dymension">
+                    <img src="img/partners/dymension.png" alt="Dymension" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Canonical">
+                    <img src="img/partners/canonical.png" alt="Canonical" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Bittensor">
+                    <img src="img/partners/bittensor.png" alt="Bittensor" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="XAR">
+                    <img src="img/partners/xar.png" alt="XAR" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Beacon">
+                    <img src="img/partners/beacon.png" alt="Beacon" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="CamelAI">
+                    <img src="img/partners/camelai.png" alt="CamelAI" />
+                </a>
+                <!--a class="partner" href="javascript:void(0)" target="_blank" aria-label="InvoiceView">
+                    <img src="img/partners/invoiceview.png" alt="InvoiceView" />
+                </a-->
+            </div>
+            <div class="row">
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="NYU">
+                    <img src="img/partners/nyu.png" alt="NYU" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="MIT">
+                    <img src="img/partners/mit.png" alt="MIT" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Cake">
+                    <img src="img/partners/cake.png" alt="Cake" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Cambridge">
+                    <img src="img/partners/cambridge.png" alt="Cambridge" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Ritual">
+                    <img src="img/partners/ritual.png" alt="Ritual" />
+                </a>
+                <a class="partner" href="javascript:void(0)" target="_blank" aria-label="Jambo">
+                    <img src="img/partners/jambo.png" alt="Jambo" />
+                </a>
+                <!--a class="partner" href="javascript:void(0)" target="_blank" aria-label="StickerHero">
+                    <img src="img/partners/stickerhero.png" alt="StickerHero" />
+                </a-->
+            </div>
+        </div>
+    </div>
+</div>
+<div class="features">
+    <div class="feature permissionless">
+        <div class="title">Truly Permissionless and Trustless Network</div>
+        <div class="items">
+            <div class="item">
+                <div class="icon">
+                    <img src="img/pm-vssml.png" alt="vssML"/>
+                </div>
+                <div class="title">vssML</div>
+                <div class="description">Innovative consensus protocol built on top of Zero-Knowledge Proof and Verifiable Random Function. Guarantees the correctness of the computation and the functioning of the network under extreme malicious environment. Sybil-attack resistant.
+                </div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <img src="img/pm-scale.png" alt="vssML"/>
+                </div>
+                <div class="title">Scalability</div>
+                <div class="description">Allows the permissionless joining and using by anyone, scaling to millions. No signup, no whitelist. Just install the Crynux Node app, and you are already empowering thousands of applications with AI abilities.</div>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <img src="img/pm-performance.png" alt="vssML"/>
+                </div>
+                <div class="title">Performance</div>
+                <div class="description">No compromisation on the speed. The consensus overhead is reduced to ~10%, rivaling the performance of the centralized platforms while remaining decentralized and permissionless.</div>
+            </div>
+        </div>
+    </div>
+    <div class="feature start-a-node">
+        <div class="title">Start a Node, Get Rewards Today</div>
+        <div class="buttons">
+            <a class="node-btn" href="https://docs.crynux.ai/node-hosting/start-a-node/start-a-node-windows" target="_blank">
+                <img src="img/node-btn-windows.png" alt="Start a node on Windows" style="width: 25px; height: 25px; top: 17px" />
+                <span class="text">Windows</span>
+            </a>
+            <a class="node-btn" href="https://docs.crynux.ai/node-hosting/start-a-node/start-a-node-mac" target="_blank">
+                <img src="img/node-btn-mac.png" alt="Start a node on Mac" style="width: 28px; height: 28px;" />
+                <span class="text">Mac</span>
+            </a>
+            <a class="node-btn" href="https://docs.crynux.ai/node-hosting/start-a-node/start-a-node-linux" target="_blank">
+                <img src="img/node-btn-linux.png" alt="Start a node on Linux" style="width: 30px; height: 30px; top: 15px" />
+                <span class="text">Linux</span>
+            </a>
+            <a class="node-btn" href="https://docs.crynux.ai/node-hosting/start-a-node/start-a-node-docker" target="_blank">
+                <img src="img/node-btn-docker.png" alt="Start a node on Docker" />
+                <span class="text">Docker</span>
+            </a>
+        </div>
+        <div class="or">Or</div>
+        <div class="play-to-earn">
+            <a href="https://discord.gg/Ug2AHUbrrm" target="_blank">Play to earn in Discord</a></div>
+    </div>
+    <div class="feature model-service">
+        <div class="model-service-frame">
+            <div class="title">
+                <div class="line">Production-Ready</div>
+                <div class="line">AI Services Cloud</div>
+                <div class="line">on Edge</div>
+            </div>
+            <div class="button">
+                <a href="https://docs.crynux.ai/application-development/application-workflow" target="_blank">Use the API services today &nbsp;&nbsp;&nbsp;&nbsp;⟶</a>
+            </div>
+            <div class="highlights">
+                <div class="item-wrapper">
+                    <div class="item left">
+                        <div class="triangles">
+                            <img src="img/arrow-right-black.svg" />
+                            <img src="img/arrow-right-black.svg" />
+                            <img src="img/arrow-right-black.svg" />
+                        </div>
+                        <div class="title">Model as a Service</div>
+                        <div class="description">Hosting, inference, fine-tuning, training. All the services you need around AI models. Everything as API, no local hardware is required.</div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="item middle">
+                        <div class="triangles">
+                            <img src="img/arrow-right-black.svg" />
+                            <img src="img/arrow-right-black.svg" />
+                            <img src="img/arrow-right-black.svg" />
+                        </div>
+                        <div class="title">All Modalities Supported</div>
+                        <div class="description">Llama (text), Stable Diffusion (image), MusicGen (music), Video Diffusion (video). All modalities, from 405B to n-bit quantization, all supported in the network.</div>
+                    </div>
+                </div>
+                <div class="item-wrapper">
+                    <div class="item right">
+                        <div class="triangles">
+                            <img src="img/arrow-right-black.svg" />
+                            <img src="img/arrow-right-black.svg" />
+                            <img src="img/arrow-right-black.svg" />
+                        </div>
+                        <div class="title">On Edge, For Edge</div>
+                        <div class="description">The computing power is composed completely by the edge devices. Mobile devices could run larger and faster models beyond their current capabilities.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feature defi">
+        <div class="bg">
+            <img src="img/bg-triangle-white.svg" />
+        </div>
+        <div class="content">
+            <div class="title">
+                <div class="line"><span style="color:#09A9FD">AI-Fi</span> Ecosystem</div>
+                <div class="line">like</div>
+                <div class="line">Never Before</div>
+            </div>
+            <div class="highlights">
+                <div class="column">
+                    <div class="item">
+                        <div class="title">
+                            <img src="img/defi-chain.png" alt="Onchain"/>
+                            <div class="text">On Chain, End-to-End</div>
+                        </div>
+                        <div class="description">
+                            <div class="line">
+                                Revolutionizes AI model service delivery, from inference to fine-tuning, all the transactions are transparently executed on the blockchain.
+                            </div>
+                            <div class="line">
+                                Enforced revenue distribution to model token holders, direct and fair, eliminating intermediaries and manual intervention.
+                            </div>
+                            <div class="line">
+                                Embrace a new era of trust and efficiency.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="title">
+                            <img src="img/defi-modular.png" alt="Onchain"/>
+                            <div class="text">Modular</div>
+                        </div>
+                        <div class="description">
+                            <div class="line">Deploy high performance AI-Fi apps alongside the Crynux Blockchain, utilizing the AI Assets issued on the Crynux Network.</div>
+                            <div class="line">Connect to the AI Assets from existing DeFi apps on the other blockchains through cross chain communication.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="item">
+                        <div class="title">
+                            <img src="img/defi-assets.png" alt="Onchain"/>
+                            <div class="text">AI Assets</div>
+                        </div>
+                        <div class="description">
+                            <div class="line">Tokenize your models, getting support from the community and benefiting from the model token market.</div>
+                            <div class="line">Broaden your reach by connecting your model assets to a wide range of AI-Fi applications.</div>
+                            <div class="line">Contribute your data to the model training and get rewards.</div>
+                            <div class="line">Data assets are protected from public access using the advanced Federated Learning and Multi-Party Computation technologies.</div>
+                            <div class="line">Earn rewards by identifying and holding AI assets with the highest potential. </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="roadmap">
+    <div class="content">
+        <div class="title">Roadmap</div>
+        <div class="roads">
+            <div class="road-left">
+                <div class="milestone lithium">
+                    <div class="arrow">↓</div>
+                    <div class="title">Lithium Network</div>
+                    <div class="description">Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.</div>
+                </div>
+            </div>
+            <div class="road-axis">
+                <div class="timeline"></div>
+                <div class="timestop helium">
+                    <div class="stop"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="timestop lithium">
+                    <div class="stop"></div>
+                    <div class="line"></div>
+                </div>
+                <div class="timestop beryllium">
+                    <div class="stop"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="road-right">
+                <div class="milestone helium">
+                    <div class="arrow">→</div>
+                    <div class="title">Helium Network (Released)</div>
+                    <div class="description">Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.</div>
+                </div>
+                <div class="milestone beryllium">
+                    <div class="arrow">↓</div>
+                    <div class="title">Beryllium Network</div>
+                    <div class="description">Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.Lithium Network.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="content">
+        <div class="row">
+            <div class="logo">
+                <img src="img/logo-full-black.png" alt="Crynux Logo"/>
+            </div>
+            <div class="link-items">
+                <a class="link-item" href="javascript:void(0)">Applications</a>
+                <a class="link-item" href="javascript:void(0)">Nodes</a>
+                <a class="link-item" href="javascript:void(0)">Documentation</a>
+                <a class="link-item" href="javascript:void(0)">Blog</a>
+                <a class="link-item" href="javascript:void(0)">Explorer</a>
+                <a class="link-item" href="javascript:void(0)">Netstat</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="copyright">&copy;2023-2024. Crynux. All rights reserved.</div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
