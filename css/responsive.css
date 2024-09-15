@@ -1,14 +1,230 @@
+@media (max-width: 1199px)  {
+    .banner .slogan {
+        margin-top: 70px;
+        font-size: 56px;
+        line-height: 80px;
+    }
 
-@media (min-width: 576px) and (max-width: 767px)  {
-    
-}
+    .banner .navbar .nav-items {
+        padding: 12px 20px;
+    }
 
-@media (min-width: 768px) and (max-width: 991px)  {
-    
-}
+    .banner .navbar .nav-items .nav-item {
+        width: 40px;
+        font-size: 14px;
+    }
 
-@media (min-width: 992px) and (max-width: 1199px)  {
-    
+    .banner .network-stats {
+        margin: 108px auto;
+        width: 85%;
+        padding-top: 48px;
+        padding-bottom: 36px;
+    }
+
+    .banner .network-stats .stats-item {
+        margin-left: 74px;
+    }
+
+    .banner .network-stats .stats-item .stats-icon {
+        width: 30px;
+        height: 30px;
+        top: 24px;
+    }
+
+    .banner .network-stats .stats-item .stats-title {
+        margin-left: 44px;
+    }
+
+    .banner .network-stats .stats-item .stats-data {
+        font-size: 30px;
+        margin-left: 44px;
+    }
+
+    .banner .partners .partner-scroller {
+        width: 95%;
+        margin: 48px auto;
+    }
+
+    .banner .partners .partner-scroller .row {
+        margin-top: 24px;
+    }
+
+    .feature.permissionless {
+        margin-top: 0;
+    }
+
+    .feature.permissionless > .title {
+        font-size: 30px;
+    }
+
+    .feature.permissionless .items {
+        width: 90%;
+        left: 5%;
+    }
+
+    .feature.permissionless .items .item .title {
+        font-size: 18px;
+    }
+
+    .feature.permissionless .items .item .description {
+        font-size: 14px;
+    }
+
+    .feature.start-a-node {
+        margin-top: 88px;
+    }
+
+    .feature.start-a-node > .title {
+        font-size: 30px;
+    }
+
+    .feature.start-a-node .buttons .node-btn {
+        margin: 0 16px;
+        width: 180px;
+    }
+
+    .feature.start-a-node .buttons .node-btn .text {
+        margin-left: 80px;
+    }
+
+    .feature.model-service {
+        margin-top: 88px;
+    }
+
+    .feature.model-service .model-service-frame {
+        margin-top: 68px;
+        padding: 24px;
+        width: 85%;
+    }
+
+    .feature.model-service .model-service-frame > .title {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .feature.model-service .model-service-frame .button a {
+        font-size: 20px;
+        margin-top: 48px;
+    }
+
+    .feature.model-service .model-service-frame .highlights {
+        margin-top: 48px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item {
+        padding: 48px 24px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .triangles img {
+        margin: 0 6px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .title {
+        font-size: 18px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .feature.defi {
+        margin-top: 16px;
+    }
+
+    .feature.defi .bg {
+        width: 40%;
+        right: 0;
+    }
+
+    .feature.defi .bg img {
+        width: 100%;
+    }
+
+    .feature.defi .content {
+        width: 90%
+    }
+
+    .feature.defi .content > .title {
+        width: 35%;
+    }
+
+    .feature.defi .content > .title .line {
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .feature.defi .content .highlights {
+        width: 65%;
+    }
+
+    .feature.defi .content .highlights .column .item {
+        width: 84%;
+        padding: 16px;
+    }
+
+    .feature.defi .content .highlights .column .item .title .text {
+        font-size: 16px;
+    }
+
+    .feature.defi .content .highlights .column .item .description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .roadmap {
+        margin-top: 88px;
+    }
+
+    .roadmap .content {
+        width: 90%;
+    }
+
+    .roadmap .content > .title {
+        font-size: 30px;
+    }
+
+    .roadmap .content .roads {
+        height: 640px;
+    }
+
+    .roadmap .content .roads .milestone {
+        padding: 24px;
+    }
+
+    .roadmap .content .roads .milestone .title {
+        font-size: 20px;
+    }
+
+    .roadmap .content .roads .milestone .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .roadmap .content .roads .milestone.lithium {
+        top: 162px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.helium {
+        top: 82px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.lithium {
+        top: 244px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.beryllium {
+        top: 407px;
+    }
+
+    .footer {
+        padding-top: 88px;
+    }
+
+    .footer .content .link-items .link-item {
+        width: 50px;
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px)  {
@@ -29,15 +245,16 @@
     }
 
     .banner .partners .partner-scroller {
-        width: 1100px;
-    }
-
-    .banner .partners .partner-scroller .partner {
-        width: 146px;
+        width: 85%;
     }
 
     .feature.permissionless {
-        margin-top: 48px;
+        margin-top: 0;
+    }
+
+    .feature.permissionless .items {
+        width: 80%;
+        left: 10%;
     }
 
     .feature.start-a-node {
@@ -80,8 +297,17 @@
     }
 
     .feature.defi .content {
-        width: 85%;
+        width: 90%;
     }
+
+    .feature.defi .content > .title {
+        width: 40%;
+    }
+
+    .feature.defi .content .highlights {
+        width: 60%;
+    }
+
 
     .feature.defi .content > .title .line {
         font-size: 48px;
@@ -94,11 +320,48 @@
     }
 
     .feature.defi .content .highlights .column .item .title .text {
-        font-size: 18px;
+        font-size:18px;
     }
 
     .roadmap {
         margin-top: 88px;
+    }
+
+    .roadmap .content {
+        width: 80%;
+    }
+
+    .roadmap .content .roads {
+        height: 600px;
+    }
+
+    .roadmap .content .roads .milestone {
+        padding: 24px;
+    }
+
+    .roadmap .content .roads .milestone .title {
+        font-size: 20px;
+    }
+
+    .roadmap .content .roads .milestone .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .roadmap .content .roads .milestone.lithium {
+        top: 162px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.helium {
+        top: 82px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.lithium {
+        top: 244px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.beryllium {
+        top: 407px;
     }
 }
 
@@ -182,6 +445,39 @@
 
     .roadmap {
         margin-top: 88px;
+    }
+
+    .roadmap .content .roads {
+        height: 600px;
+    }
+
+    .roadmap .content .roads .milestone {
+        padding: 24px;
+    }
+
+    .roadmap .content .roads .milestone .title {
+        font-size: 20px;
+    }
+
+    .roadmap .content .roads .milestone .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .roadmap .content .roads .milestone.lithium {
+        top: 162px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.helium {
+        top: 82px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.lithium {
+        top: 244px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.beryllium {
+        top: 407px;
     }
 }
 

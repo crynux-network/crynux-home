@@ -248,7 +248,7 @@ img {
 }
 .banner .partners .partner-scroller {
     position: relative;
-    width: 1360px;
+    width: 75%;
     margin: 88px auto;
 }
 
@@ -260,12 +260,12 @@ img {
 .banner .partners .partner-scroller .partner {
     position: relative;
     float: left;
-    margin: 0 36px;
-    width: 200px;
-    height: 70px;
+    width: 20%;
+    text-align: center;
 }
 .banner .partners .partner-scroller .partner img {
-    width: 100%;
+    display: inline-block;
+    width: 80%;
 }
 .features {
     position: relative;
@@ -803,4 +803,8 @@ img {
 
 .footer .content .row .social-links .social-link:hover {
     opacity: 1;
+}
+
+.footer .content .row .social-links .social-link img {
+    position: relative;
 }
