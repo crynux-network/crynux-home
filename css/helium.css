@@ -641,7 +641,7 @@ img {
     position: relative;
     overflow: auto;
     margin-top: 88px;
-    height: 700px;
+    height: 800px;
 }
 
 .roadmap .content .roads .road-left {
@@ -688,29 +688,37 @@ img {
     background-color: #00ADFE;
 }
 
-.roadmap .content .roads .road-axis .timestop.helium {
+.roadmap .content .roads .road-axis .timestop.hydrogen {
     top: 92px;
+    left: 0;
+    right: 50%;
+    margin-right: -6px;
+}
+
+.roadmap .content .roads .road-axis .timestop.helium {
+    top: 242px;
     left: 50%;
     right: 0;
     margin-left: -6px;
 }
 
 .roadmap .content .roads .road-axis .timestop.lithium {
-    top: 282px;
+    top: 392px;
     left: 0;
     right: 50%;
     margin-right: -6px;
 }
 
-.roadmap .content .roads .road-axis .timestop.lithium .stop {
-    float: right;
-}
-
 .roadmap .content .roads .road-axis .timestop.beryllium {
-    top: 467px;
+    top: 542px;
     left: 50%;
     right: 0;
     margin-left: -6px;
+}
+
+.roadmap .content .roads .road-axis .timestop.lithium .stop,
+.roadmap .content .roads .road-axis .timestop.hydrogen .stop {
+    float: right;
 }
 
 .roadmap .content .roads .road-right {
@@ -756,12 +764,13 @@ img {
     color: white;
 }
 
-.roadmap .content .roads .milestone.lithium {
-    top: 192px;
+.roadmap .content .roads .milestone.helium {
+    margin-top: 152px;
 }
 
+.roadmap .content .roads .milestone.lithium,
 .roadmap .content .roads .milestone.beryllium {
-    margin-top: 90px;
+    margin-top: 43px;
 }
 
 .footer {

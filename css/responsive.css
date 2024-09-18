@@ -185,7 +185,7 @@
     }
 
     .roadmap .content .roads {
-        height: 640px;
+        height: 740px;
     }
 
     .roadmap .content .roads .milestone {
@@ -201,20 +201,29 @@
         line-height: 24px;
     }
 
-    .roadmap .content .roads .milestone.lithium {
-        top: 162px;
+    .roadmap .content .roads .milestone.helium {
+        margin-top: 131px;
+    }
+
+    .roadmap .content .roads .milestone.lithium,
+    .roadmap .content .roads .milestone.beryllium {
+        margin-top: 50px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.hydrogen {
+        top: 80px;
     }
 
     .roadmap .content .roads .road-axis .timestop.helium {
-        top: 82px;
+        top: 210px;
     }
 
     .roadmap .content .roads .road-axis .timestop.lithium {
-        top: 244px;
+        top: 340px;
     }
 
     .roadmap .content .roads .road-axis .timestop.beryllium {
-        top: 407px;
+        top: 470px;
     }
 
     .footer {
@@ -332,7 +341,7 @@
     }
 
     .roadmap .content .roads {
-        height: 600px;
+        height: 700px;
     }
 
     .roadmap .content .roads .milestone {
@@ -348,20 +357,29 @@
         line-height: 24px;
     }
 
-    .roadmap .content .roads .milestone.lithium {
-        top: 162px;
+    .roadmap .content .roads .milestone.helium {
+        margin-top: 131px;
+    }
+
+    .roadmap .content .roads .milestone.lithium,
+    .roadmap .content .roads .milestone.beryllium {
+        margin-top: 50px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.hydrogen {
+        top: 80px;
     }
 
     .roadmap .content .roads .road-axis .timestop.helium {
-        top: 82px;
+        top: 210px;
     }
 
     .roadmap .content .roads .road-axis .timestop.lithium {
-        top: 244px;
+        top: 340px;
     }
 
     .roadmap .content .roads .road-axis .timestop.beryllium {
-        top: 407px;
+        top: 470px;
     }
 }
 
@@ -448,7 +466,7 @@
     }
 
     .roadmap .content .roads {
-        height: 600px;
+        height: 700px;
     }
 
     .roadmap .content .roads .milestone {
@@ -463,21 +481,28 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .roadmap .content .roads .milestone.helium {
+        margin-top: 131px;
+    }
 
-    .roadmap .content .roads .milestone.lithium {
-        top: 162px;
+    .roadmap .content .roads .milestone.lithium,
+    .roadmap .content .roads .milestone.beryllium {
+        margin-top: 50px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.hydrogen {
+        top: 80px;
     }
 
     .roadmap .content .roads .road-axis .timestop.helium {
-        top: 82px;
+        top: 210px;
     }
 
     .roadmap .content .roads .road-axis .timestop.lithium {
-        top: 244px;
+        top: 340px;
     }
 
     .roadmap .content .roads .road-axis .timestop.beryllium {
-        top: 407px;
+        top: 470px;
     }
 }
-
