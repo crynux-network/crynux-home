@@ -414,6 +414,20 @@ img {
     margin-top: 168px;
 }
 
+.feature.model-service .bg-arrows {
+    position: absolute;
+    right: 10%;
+    top: -18px;
+    width: 200px;
+    z-index: 2;
+}
+
+.feature.model-service .bg-arrows img {
+    display: inline-block;
+    width: 30px;
+    margin-left: 24px;
+}
+
 .feature.model-service .model-service-frame {
     position: relative;
     width: 75%;
@@ -422,6 +436,7 @@ img {
     border: 2px solid white;
     border-radius: 16px;
     padding: 56px;
+    z-index: 1;
 }
 
 .feature.model-service .model-service-frame > .title {
