@@ -250,12 +250,7 @@ img {
     position: relative;
     width: 75%;
     margin: 88px auto;
-}
-
-.banner .partners .partner-scroller .row {
-    position: relative;
-    margin-top: 40px;
-    height: 100px;
+    overflow: auto;
 }
 
 .banner .partners .partner-scroller .partner {
@@ -642,6 +637,10 @@ img {
     overflow: auto;
     margin-top: 88px;
     height: 800px;
+}
+
+.roadmap .content .roads .road-mobile {
+    display: none;
 }
 
 .roadmap .content .roads .road-left {

@@ -1,0 +1,382 @@
+@media (max-width: 699px) {
+    .banner .slogan {
+        margin-top: 100px;
+        font-size: 40px;
+        line-height: 64px;
+    }
+
+    .banner .bg .gradient-top {
+        width: 100%;
+    }
+
+    .banner .bg .gradient-left {
+        display: none;
+    }
+
+    .banner .bg .logo {
+        width: 200%;
+        left: -50%;
+    }
+
+    .banner .navbar .logo {
+        left: 16px;
+    }
+
+    .banner .navbar .nav-items {
+        display: none;
+    }
+
+    .banner .sidebar {
+        top: 24px;
+        right: 16px;
+    }
+
+    .banner .network-stats {
+        margin: 108px auto 68px;
+        width: 95%;
+        padding-top: 48px;
+        padding-bottom: 36px;
+    }
+
+    .banner .network-stats .stats-item,
+    .banner .network-stats .stats-item:first-child {
+        position: relative;
+        display: block;
+        margin-left: 16px;
+        margin-top: 24px;
+    }
+
+    .banner .network-stats .stats-item .stats-icon {
+        width: 30px;
+        height: 30px;
+        top: 24px;
+        left: 24px;
+    }
+
+    .banner .network-stats .stats-item .stats-title {
+        margin-left: 84px;
+    }
+
+    .banner .network-stats .stats-item .stats-data {
+        font-size: 30px;
+        margin-left: 84px;
+    }
+
+    .banner .partners .partner-scroller {
+        width: 95%;
+        margin: 48px auto;
+    }
+
+    .banner .partners .partner-scroller .partner {
+        width: 33.3%;
+        height: 70px;
+    }
+
+    .feature.permissionless {
+        margin-top: 0;
+    }
+
+    .feature.permissionless > .title {
+        font-size: 24px;
+        padding: 0 24px;
+    }
+
+    .feature.permissionless .items {
+        width: 90%;
+        left: 5%;
+        margin-top: 32px;
+    }
+
+    .feature.permissionless .items .item .icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .feature.permissionless .items .item .icon img {
+        left: 7px;
+        top: 7px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .feature.permissionless .items .item .title {
+        font-size: 18px;
+        margin-left: 86px;
+    }
+
+    .feature.permissionless .items .item .description {
+        font-size: 16px;
+        margin-left: 86px;
+        line-height: 24px;
+    }
+
+    .feature.start-a-node {
+        margin-top: 68px;
+    }
+
+    .feature.start-a-node > .title {
+        padding: 0 24px;
+        font-size: 24px;
+    }
+
+    .feature.start-a-node .buttons {
+        margin-top: 48px;
+    }
+
+    .feature.start-a-node .buttons .node-btn {
+        margin: 16px 16px;
+        width: 130px;
+    }
+
+    .feature.start-a-node .buttons .node-btn img {
+        left: 16px;
+    }
+
+    .feature.start-a-node .buttons .node-btn .text {
+        margin-left: 50px;
+    }
+
+    .feature.start-a-node .or {
+        margin-top: 48px;
+    }
+
+    .feature.model-service {
+        margin-top: 88px;
+    }
+
+    .feature.model-service .model-service-frame {
+        margin-top: 68px;
+        padding: 16px;
+        width: 85%;
+    }
+
+    .feature.model-service .bg-arrows {
+        width: 120px;
+        top: -10px;
+    }
+
+    .feature.model-service .bg-arrows img {
+        width: 20px;
+        margin-left: 16px;
+    }
+
+    .feature.model-service .model-service-frame > .title {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .feature.model-service .model-service-frame .button a {
+        font-size: 18px;
+        margin-top: 48px;
+    }
+
+    .feature.model-service .model-service-frame .highlights {
+        margin-top: 48px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item {
+        padding: 48px 24px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .triangles img {
+        margin: 0 6px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .title {
+        font-size: 18px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .feature.defi {
+        margin-top: 16px;
+    }
+
+    .feature.defi .bg {
+        width: 40%;
+        right: 0;
+    }
+
+    .feature.defi .bg img {
+        width: 100%;
+    }
+
+    .feature.defi .content {
+        width: 90%;
+        padding-top: 48px;
+    }
+
+    .feature.defi .content > .title {
+        width: 100%;
+        float: none;
+        margin-top: 0;
+    }
+
+    .feature.defi .content > .title .line {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .feature.defi .content .highlights,
+    .feature.defi .content .highlights .column {
+        width: 100%;
+        float: none;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper {
+        float: none;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item {
+        width: auto;
+        padding: 48px 24px;
+        float: none !important;
+    }
+
+    .feature.defi .content .highlights .column .item,
+    .feature.defi .content .highlights .column:nth-child(2) .item {
+        margin-top: 24px;
+    }
+
+    .feature.model-service .model-service-frame .highlights .item-wrapper .item.middle {
+        margin: 0;
+    }
+
+    .feature.defi .content .highlights .column .item {
+        width: 100%;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    .feature.defi .content .highlights .column .item .title .text {
+        font-size: 18px;
+    }
+
+    .feature.defi .content .highlights .column .item .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .roadmap {
+        margin-top: 68px;
+    }
+
+    .roadmap .content {
+        width: 100%;
+    }
+
+    .roadmap .content > .title {
+        font-size: 24px;
+    }
+
+    .roadmap .content .roads {
+        height: auto;
+        margin-top: 48px;
+    }
+
+    .roadmap .content .roads .road-axis {
+        width: 64px;
+        float: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .roadmap .content .roads .road-left, 
+    .roadmap .content .roads .road-right {
+        display: none;
+    }
+
+    .roadmap .content .roads .road-mobile {
+        display: block;
+        position: relative;
+        margin-left: 60px;
+        margin-right: 16px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop {
+        left: 50% !important;
+        right: 0 !important;
+        margin-right: 0 !important;
+        margin-left: -6px !important;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.lithium .stop,
+    .roadmap .content .roads .road-axis .timestop.hydrogen .stop {
+        float: none;
+    }
+
+    .roadmap .content .roads .milestone {
+        padding: 24px;
+        margin-top: 16px !important;
+    }
+
+    .roadmap .content .roads .milestone .title {
+        font-size: 18px;
+    }
+
+    .roadmap .content .roads .milestone .description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.hydrogen {
+        top: 96px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.helium {
+        top: 320px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.lithium {
+        top: 546px;
+    }
+
+    .roadmap .content .roads .road-axis .timestop.beryllium {
+        top: 820px;
+    }
+
+    .footer {
+        padding-top: 88px;
+    }
+
+    .footer-bg-wrapper .bg {
+        display: none;
+    }
+
+    .footer .content {
+        width: 90%;
+        box-sizing: border-box;
+        padding: 16px;
+    }
+
+    .footer .content .link-items {
+        position: relative;
+        margin-top: 16px;
+    }
+
+    .footer .content .link-items .link-item {
+        display: block;
+        width: 50px;
+        font-size: 18px;
+        line-height: 40px;
+        margin: 0;
+        width: 50px;
+        text-align: left;
+        padding-left: 24px;
+        text-decoration: underline;
+    }
+
+    .footer .content .link-items .divider {
+        display: none;
+    }
+
+    .footer .content .row .social-links {
+        display: none;
+    }
+}
