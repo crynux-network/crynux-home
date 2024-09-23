@@ -9,6 +9,14 @@
         width: 100%;
     }
 
+    .banner .bg .gradient-top .mobile {
+        display: block;
+    }
+
+    .banner .bg .gradient-top .desktop {
+        display: none;
+    }
+
     .banner .bg .gradient-left {
         display: none;
     }
@@ -16,6 +24,14 @@
     .banner .bg .logo {
         width: 200%;
         left: -50%;
+    }
+
+    .banner .bg .logo .mobile {
+        display: block;
+    }
+
+    .banner .bg .logo .desktop {
+        display: none;
     }
 
     .banner .navbar .logo {
@@ -29,6 +45,10 @@
     .banner .sidebar {
         top: 24px;
         right: 16px;
+    }
+
+    .banner .slogan .edge-ai {
+        color: black;
     }
 
     .banner .network-stats {
