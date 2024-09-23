@@ -50,6 +50,10 @@
         margin: 48px auto;
     }
 
+    .banner .partners .partner-scroller .partner {
+        height: 120px;
+    }
+
     .feature.permissionless {
         margin-top: 0;
     }
@@ -284,6 +288,10 @@
         width: 85%;
     }
 
+    .banner .partners .partner-scroller .partner {
+        height: 120px;
+    }
+
     .feature.permissionless {
         margin-top: 0;
     }
@@ -425,6 +433,10 @@
 
     .banner .network-stats .stats-item {
         margin-left: 88px;
+    }
+
+    .banner .partners .partner-scroller .partner {
+        height: 120px;
     }
 
     .feature.permissionless {

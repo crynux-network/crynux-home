@@ -267,7 +267,7 @@ img {
     position: relative;
     float: left;
     width: 20%;
-    height: 100px;
+    height: 160px;
     text-align: center;
 }
 .banner .partners .partner-scroller .partner img {
@@ -276,7 +276,6 @@ img {
     width: 80%;
     top: 0;
     left: 10%;
-
     transition: opacity .2s linear;
 }
 .banner .partners .partner-scroller .partner img.gray,
