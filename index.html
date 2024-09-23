@@ -88,17 +88,17 @@
             <div class="stats-item">
                 <div class="stats-icon"><img src="img/icon-stats-computing.png" /></div>
                 <div class="stats-title">Total Computing Power</div>
-                <div class="stats-data">16,526 <span class="unit" style="font-size: 18px">TFLOPS</span></div>
+                <div class="stats-data"><span id="stats-tflops">8,000</span> <span class="unit" style="font-size: 18px">TFLOPS</span></div>
             </div>
             <div class="stats-item">
                 <div class="stats-icon"><img src="img/icon-stats-node.png" /></div>
                 <div class="stats-title">Total Nodes</div>
-                <div class="stats-data">1,154</div>
+                <div class="stats-data" id="stats-nodes">1,154</div>
             </div>
             <div class="stats-item">
                 <div class="stats-icon"><img src="img/icon-stats-task.png" /></div>
                 <div class="stats-title">Total Tasks</div>
-                <div class="stats-data">3,156,726</div>
+                <div class="stats-data" id="stats-tasks">3,156,726</div>
             </div>
         </div>
     </div>
@@ -145,7 +145,7 @@
                     <img class="gray" src="img/partners/cake-gray.png" alt="Cake" />
                     <img class="color" src="img/partners/cake.png" alt="Cake" />
                 </a>
-            
+
                 <a class="partner" href="https://www.cam.ac.uk" target="_blank" aria-label="Cambridge">
                     <img class="gray" src="img/partners/cam-gray.png" alt="Cambridge" />
                     <img class="color" src="img/partners/cam.png" alt="Cambridge" />
@@ -479,5 +479,35 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    let CRYNUX_RELAY_API = "https://dy.relay.crynux.ai";
+    window.onload = async function() {
+        const networkResp = await fetch(CRYNUX_RELAY_API + '/v1/network', {
+            method: 'GET',
+            headers: {},
+        });
+        const networkData = await networkResp.json();
+        const tflops = Math.floor(networkData.data.tflops);
+        document.getElementById("stats-tflops").innerHTML = formatNumber(tflops);
+
+        const nodeResp = await fetch(CRYNUX_RELAY_API + '/v1/network/nodes/number', {
+            method: 'GET',
+            headers: {},
+        });
+        const nodeData = await nodeResp.json();
+        document.getElementById("stats-nodes").innerHTML = formatNumber(nodeData.data.all_nodes);
+
+        const taskResp = await fetch(CRYNUX_RELAY_API + '/v1/network/tasks/number', {
+            method: 'GET',
+            headers: {},
+        });
+        const taskData = await taskResp.json();
+        document.getElementById("stats-tasks").innerHTML = formatNumber(taskData.data.total_tasks);
+    }
+</script>
 </body>
 </html>
