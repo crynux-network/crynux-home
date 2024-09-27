@@ -217,6 +217,7 @@ img {
     margin-left: 128px;
     height: 80px;
     z-index: 3;
+    text-decoration: none;
 }
 
 .banner .network-stats .stats-item:first-child {
@@ -238,6 +239,7 @@ img {
     font-size: 16px;
     font-weight: 500;
     text-align: left;
+    color: black;
 }
 
 .banner .network-stats .stats-item .stats-data {
@@ -248,6 +250,10 @@ img {
     font-weight: 700;
     line-height: 24px;
     text-align: left;
+}
+
+.banner .network-stats .stats-item:hover .stats-data {
+    color: #19b9ff;
 }
 
 .banner .partners {
