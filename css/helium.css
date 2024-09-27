@@ -217,6 +217,12 @@ img {
     margin-left: 128px;
     height: 80px;
     z-index: 3;
+}
+
+.banner .network-stats .stats-item,
+.banner .network-stats .stats-item:hover,
+.banner .network-stats .stats-item:active,
+.banner .network-stats .stats-item:visited {
     text-decoration: none;
 }
 
@@ -239,7 +245,7 @@ img {
     font-size: 16px;
     font-weight: 500;
     text-align: left;
-    color: black;
+    color: black !important;
 }
 
 .banner .network-stats .stats-item .stats-data {
