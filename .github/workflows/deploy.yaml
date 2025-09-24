@@ -1,0 +1,76 @@
+name: Deploy static site
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Git ref (branch or tag) to checkout; defaults to current ref'
+        required: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+
+      - name: Compute archive metadata
+        id: meta
+        shell: bash
+        run: |
+          SHA_SHORT=${GITHUB_SHA::7}
+          ARCHIVE_NAME="site-${SHA_SHORT}.tar.gz"
+          echo "sha_short=${SHA_SHORT}" >> "$GITHUB_OUTPUT"
+          echo "archive_name=${ARCHIVE_NAME}" >> "$GITHUB_OUTPUT"
+
+      - name: Remove repository-only folders
+        shell: bash
+        run: |
+          rm -rf .git .github
+
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
+
+      - name: Add server to known hosts
+        shell: bash
+        run: |
+          ssh-keyscan -p ${{ secrets.DEPLOY_PORT }} ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Prepare remote directory
+        uses: appleboy/ssh-action@v1.2.2
+        env:
+          DEPLOY_TARGET_DIR: ${{ secrets.DEPLOY_TARGET_DIR }}
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USERNAME }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          port: ${{ secrets.DEPLOY_PORT }}
+          envs: DEPLOY_TARGET_DIR
+          script: |
+            set -euo pipefail
+            mkdir -p "$DEPLOY_TARGET_DIR"
+            rm -rf "$DEPLOY_TARGET_DIR"/*
+
+      - name: Upload site files to server via SCP
+        shell: bash
+        run: |
+          shopt -s dotglob
+          timeout 15m scp -P ${{ secrets.DEPLOY_PORT }} -r * ${{ secrets.DEPLOY_USERNAME }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_TARGET_DIR }}/
+
+      - name: Create site archive
+        shell: bash
+        run: |
+          tar -czf "${{ steps.meta.outputs.archive_name }}" -C . .
+
+      - name: Upload site archive (backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-${{ steps.meta.outputs.sha_short }}
+          path: ${{ steps.meta.outputs.archive_name }}

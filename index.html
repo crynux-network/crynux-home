@@ -38,7 +38,7 @@
             <span class="divider">|</span>
             <a class="nav-item" target="_blank" href="https://blog.crynux.io">Blog</a>
             <span class="divider">|</span>
-            <a class="nav-item" target="_blank" href="https://netstats.crynux.io">Netstats</a>
+            <a class="nav-item" target="_blank" href="https://portal.crynux.io">Portal</a>
         </div>
     </div>
     <div class="sidebar">
@@ -352,10 +352,9 @@
                         <div class="arrow">↓</div>
                         <div class="title">Lithium Network</div>
                         <div class="description">
-                            <div class="line">• Verifiable Secret Sampling</div>
-                            <div class="line">• Model Fine-tuning / Training</div>
-                            <div class="line">• Multi-Modality Support</div>
-                            <div class="line">• Decentralized Model Hosting</div>
+                            <div class="line">✓ Verifiable Secret Sampling</div>
+                            <div class="line">✓ Model Fine-tuning / Training</div>
+                            <div class="line">✓ Multi-Chain Architecture</div>
                             <div class="line">• The First Mainnet</div>
                         </div>
                     </div>
@@ -385,7 +384,7 @@
                         <div class="title">Helium Network (Current)</div>
                         <div class="description">
                             <div class="line">✓ Decentralized Edge Inference Engine</div>
-                            <div class="line">✓ GPT/Llama</div>
+                            <div class="line">✓ GPT/LLM Inference</div>
                             <div class="line">✓ Incentivized Testnet</div>
                         </div>
                     </div>
@@ -395,7 +394,8 @@
                         <div class="description">
                             <div class="line">• Decentralized AI Workflow</div>
                             <div class="line">• Model Tokenization</div>
-                            <div class="line">• Multi-Chain Architecture</div>
+                            <div class="line">• Multi-Modality Support</div>
+                            <div class="line">• Decentralized Model Hosting</div>
                             <div class="line">• Cross-Chain Model Assets</div>
                         </div>
                     </div>
@@ -415,7 +415,7 @@
                         <div class="title">Helium Network (Current)</div>
                         <div class="description">
                             <div class="line">✓ Decentralized Edge Inference Engine</div>
-                            <div class="line">✓ GPT/Llama</div>
+                            <div class="line">✓ GPT/LLM Inference</div>
                             <div class="line">✓ Incentivized Testnet</div>
                         </div>
                     </div>
@@ -423,10 +423,9 @@
                         <div class="arrow">↓</div>
                         <div class="title">Lithium Network</div>
                         <div class="description">
-                            <div class="line">• Verifiable Secret Sampling</div>
-                            <div class="line">• Model Fine-tuning / Training</div>
-                            <div class="line">• Multi-Modality Support</div>
-                            <div class="line">• Decentralized Model Hosting</div>
+                            <div class="line">✓ Verifiable Secret Sampling</div>
+                            <div class="line">✓ Model Fine-tuning / Training</div>
+                            <div class="line">✓ Multi-Chain Architecture</div>
                             <div class="line">• The First Mainnet</div>
                         </div>
                     </div>
@@ -436,7 +435,8 @@
                         <div class="description">
                             <div class="line">• Decentralized AI Workflow</div>
                             <div class="line">• Model Tokenization</div>
-                            <div class="line">• Multi-Chain Architecture</div>
+                            <div class="line">• Multi-Modality Support</div>
+                            <div class="line">• Decentralized Model Hosting</div>
                             <div class="line">• Cross-Chain Model Assets</div>
                         </div>
                     </div>
@@ -459,13 +459,13 @@
                     <span class="divider">|</span>
                     <a class="link-item" target="_blank" href="https://blog.crynux.io">Blog</a>
                     <span class="divider">|</span>
-                    <a class="link-item" target="_blank" href="https://netstats.crynux.io">Netstats</a>
+                    <a class="link-item" target="_blank" href="https://portal.crynux.io">Portal</a>
                 </div>
             </div>
             <div class="row">
                 <div class="copyright">&copy;2023-2025 Crynux. All rights reserved.</div>
                 <div class="social-links">
-                    <a class="social-link" href="https://github.com/crynux-ai" target="_blank">
+                    <a class="social-link" href="https://github.com/crynux-network" target="_blank">
                         <img src="img/sidebar-icon-github.png" alt="GitHub"/>
                     </a>
                     <a class="social-link" href="https://discord.gg/Ug2AHUbrrm" target="_blank">
@@ -484,7 +484,7 @@
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 
-    let CRYNUX_RELAY_API = "https://dy.relay.crynux.io";
+    let CRYNUX_RELAY_API = "https://relay.crynux.io";
     window.onload = async function() {
         const networkResp = await fetch(CRYNUX_RELAY_API + '/v1/network', {
             method: 'GET',
