@@ -67,10 +67,10 @@ jobs:
       - name: Create site archive
         shell: bash
         run: |
-          tar -czf "${{ steps.meta.outputs.archive_name }}" -C . .
+          tar -czf "$RUNNER_TEMP/${{ steps.meta.outputs.archive_name }}" -C "$GITHUB_WORKSPACE" .
 
       - name: Upload site archive (backup)
         uses: actions/upload-artifact@v4
         with:
           name: site-${{ steps.meta.outputs.sha_short }}
-          path: ${{ steps.meta.outputs.archive_name }}
+          path: ${{ runner.temp }}/${{ steps.meta.outputs.archive_name }}
