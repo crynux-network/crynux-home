@@ -25,7 +25,7 @@ const paths = [
     title: "Use the API",
     body: "Build apps on production-ready, decentralized AI inference. Everything as an API.",
     cta: "Start building",
-    href: "https://docs.crynux.io/application-development/how-to-run-llm-using-crynux-network",
+    href: "https://crynux-as.xyz",
     featured: false,
   },
 ];

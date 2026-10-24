@@ -22,7 +22,7 @@ export default function Hero() {
             global network of edge devices.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Button href="https://docs.crynux.io/application-development/how-to-run-llm-using-crynux-network">
+            <Button href="https://crynux-as.xyz">
               Start building
             </Button>
             <Button

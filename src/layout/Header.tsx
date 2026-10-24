@@ -3,12 +3,11 @@ import Button from "@/components/ui/button";
 
 const links = [
   {
-    label: "Apps",
-    href: "https://docs.crynux.io/application-development/how-to-run-llm-using-crynux-network",
+    label: "Applications",
+    href: "https://crynux-as.xyz",
   },
   { label: "Nodes", href: "https://docs.crynux.io/node-hosting/start-a-node" },
   { label: "Docs", href: "https://docs.crynux.io" },
-  { label: "Blog", href: "https://blog.crynux.io" },
 ];
 
 export default function Header() {

@@ -25,7 +25,7 @@ export default function Services() {
             Production-ready AI cloud, on the edge
           </h2>
           <a
-            href="https://docs.crynux.io/application-development/how-to-run-llm-using-crynux-network"
+            href="https://crynux-as.xyz"
             target="_blank"
             rel="noreferrer"
             className="group mt-8 inline-flex items-center gap-3 rounded-full bg-primary px-6 py-3 font-semibold text-white transition-all duration-300 ease-[cubic-bezier(0.32,0.72,0,1)] hover:bg-secondary hover:text-ink active:scale-[0.98]"

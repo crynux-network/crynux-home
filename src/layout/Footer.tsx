@@ -7,7 +7,6 @@ const columns = [
         href: "https://docs.crynux.io/node-hosting/start-a-node",
       },
       { label: "Stake to a node", href: "https://portal.crynux.io/staking" },
-      { label: "Network stats", href: "https://netstats.crynux.io" },
       { label: "Portal", href: "https://portal.crynux.io" },
     ],
   },
@@ -16,10 +15,9 @@ const columns = [
     links: [
       {
         label: "Build apps",
-        href: "https://docs.crynux.io/application-development/how-to-run-llm-using-crynux-network",
+        href: "https://crynux-as.xyz",
       },
       { label: "Documentation", href: "https://docs.crynux.io" },
-      { label: "Blog", href: "https://blog.crynux.io" },
     ],
   },
   {
